@@ -1,0 +1,24 @@
+{
+	"schemaVersion": 1,
+	"id": "wootingcontrols",
+	"version": "1.0.0",
+	"name": "Wooting Controls",
+	"description": "A mod that enables analog input from Wooting keyboards",
+	"authors": ["xDeon_"],
+	"contact": {
+		"sources": "https://github.com/xxDeonn/WootingControls"
+	},
+	"license": "",
+	"environment": "client",
+	"entrypoints": {
+		"main": [
+			"com.wooting.control.WootingControls"
+		]
+	},
+	"depends": {
+		"fabricloader": "*",
+		"fabric": "*",
+		"minecraft": "*",
+		"java": ">=17"
+	}
+}
